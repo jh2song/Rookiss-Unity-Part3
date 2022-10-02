@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class UI_Popup : UI_Base
 {
-    void Start()
-    {
-        
-    }
+	void Start()
+	{
 
-    void Update()
-    {
-        
-    }
+	}
+
+	void Update()
+	{
+
+	}
 }
