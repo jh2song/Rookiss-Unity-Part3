@@ -47,7 +47,7 @@ public class UI_Button : UI_Popup
 
 		// non-extension method
 		GameObject go = GetImage((int)Images.ItemIcon).gameObject;
-		ADDUIEvent(go, (PointerEventData data) => { go.transform.position = data.position; }, Define.UIEvent.Drag);
+		BindEvent(go, (PointerEventData data) => { go.transform.position = data.position; }, Define.UIEvent.Drag);
 	}
 
 	int _score = 0;
