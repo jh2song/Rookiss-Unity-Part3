@@ -62,7 +62,10 @@
     <Compile Include="Assets\Scripts\UI\Scene\UI_Scene.cs" />
     <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
     <Compile Include="Assets\Scripts\UI\UI_Base.cs" />
+    <Compile Include="Assets\Scripts\Managers\SceneManagerEx.cs" />
     <Compile Include="Assets\Scripts\UI\Popup\UI_Button.cs" />
+    <Compile Include="Assets\Scripts\Scenes\GameScene.cs" />
+    <Compile Include="Assets\Scripts\Scenes\LoginScene.cs" />
     <Compile Include="Assets\Scripts\UI\SubItem\UI_Inven_Item.cs" />
     <Compile Include="Assets\Scripts\Managers\Managers.cs" />
     <Compile Include="Assets\Scripts\Managers\ResourceManager.cs" />
@@ -72,6 +75,9 @@
     <Compile Include="Assets\Scripts\UI\UI_EventHandler.cs" />
     <Compile Include="Assets\Scripts\Controllers\CameraController.cs" />
     <Compile Include="Assets\Scripts\Utils\Define.cs" />
+    <Compile Include="Assets\Scripts\Scenes\BaseScene.cs" />
+    <Compile Include="Assets\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\TestSound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_fuku.shader" />

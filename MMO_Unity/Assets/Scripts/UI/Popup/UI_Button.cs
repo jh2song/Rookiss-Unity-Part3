@@ -43,7 +43,7 @@ public class UI_Button : UI_Popup
 		Bind<Image>(typeof(Images));
 
 		// extension method
-		GetButton((int)Buttons.PointButton).gameObject.ADDUIEvent(OnButtonClicked);
+		GetButton((int)Buttons.PointButton).gameObject.BindEvent(OnButtonClicked);
 
 		// non-extension method
 		GameObject go = GetImage((int)Images.ItemIcon).gameObject;
