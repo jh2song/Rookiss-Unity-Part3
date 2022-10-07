@@ -51,6 +51,11 @@ public class PoolManager
 				poolable = Create();
 
 			poolable.gameObject.SetActive(true);
+
+			// DontDestroyOnLoad 해제 용도
+			if (parent == null)
+				poolable.transform.parent = Managers.Scene.CurrentScene.transform;
+
 			poolable.transform.parent = parent;
 			poolable.IsUsing = true;
 

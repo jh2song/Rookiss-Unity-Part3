@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Utils\Util.cs" />
+    <Compile Include="Assets\Scripts\Managers\Poolable.cs" />
     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
     <Compile Include="Assets\Scripts\Utils\Extension.cs" />
     <Compile Include="Assets\Scripts\UI\Scene\UI_Scene.cs" />
@@ -70,15 +71,16 @@
     <Compile Include="Assets\Scripts\UI\SubItem\UI_Inven_Item.cs" />
     <Compile Include="Assets\Scripts\Managers\Managers.cs" />
     <Compile Include="Assets\Scripts\Managers\ResourceManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\PoolManager.cs" />
     <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
     <Compile Include="Assets\Scripts\UI\Scene\UI_Inven.cs" />
     <Compile Include="Assets\Scripts\UI\Popup\UI_Popup.cs" />
+    <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
     <Compile Include="Assets\Scripts\UI\UI_EventHandler.cs" />
     <Compile Include="Assets\Scripts\Controllers\CameraController.cs" />
     <Compile Include="Assets\Scripts\Utils\Define.cs" />
     <Compile Include="Assets\Scripts\Scenes\BaseScene.cs" />
-    <Compile Include="Assets\Scripts\Managers\PoolManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\Poolable.cs" />
+    <Compile Include="Assets\Scripts\Data\Data.Contents.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_fuku.shader" />
